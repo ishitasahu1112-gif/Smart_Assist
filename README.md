@@ -2,14 +2,34 @@
 
 Lumina is a modern, AI-powered productivity application designed to help you capture thoughts, organize tasks, and stay on top of your schedule. Built with **Vanilla JavaScript** and **Firebase**, it offers a seamless experience with real-time syncing across devices.
 
-## 🚀 Live Demo
+## 🚀 Deployment & Live Demo
 
-**Access the deployed application here:**
-👉 **[Open Lumina App](https://antigravity-firebase-72e9d.web.app)**
+This application is configured for **Firebase Hosting**.
 
-*(Alternative link: [https://antigravity-firebase-72e9d.firebaseapp.com](https://antigravity-firebase-72e9d.firebaseapp.com))*
+**Once deployed**, the live application will be accessible at:
+👉 **[https://antigravity-firebase-72e9d.web.app](https://antigravity-firebase-72e9d.web.app)**
 
-> **Note:** For the best experience, use a desktop or tablet browser. The Google Sign-In feature requires the app to be served over a secure HTTPS connection (like the deployed link above) or a valid localhost environment.
+### How to Deploy
+
+To update the live site with the latest changes:
+
+1. **Install Firebase CLI:**
+   ```bash
+   npm install -g firebase-tools
+   ```
+
+2. **Login to Firebase:**
+   ```bash
+   firebase login
+   ```
+
+3. **Deploy:**
+   Run this command from the project root:
+   ```bash
+   firebase deploy
+   ```
+
+> **Note:** The Google Sign-In feature works out-of-the-box on the deployed URL as the domain is already authorized in Firebase Console.
 
 ---
 
