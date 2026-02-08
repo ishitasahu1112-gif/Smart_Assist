@@ -7,7 +7,7 @@ Lumina is a modern, AI-powered productivity application designed to help you cap
 This application is configured for **Firebase Hosting**.
 
 **Once deployed**, the live application will be accessible at:
-👉 **[https://antigravity-firebase-72e9d.web.app](https://antigravity-firebase-72e9d.web.app)**
+👉 **[https://antigravity-firebase-72e9d.firebaseapp.com](https://antigravity-firebase-72e9d.firebaseapp.com)**
 
 ### How to Deploy
 
